@@ -14,7 +14,7 @@ model_path_regression = "new_best_regressor.joblib"
 model_regression = joblib.load(model_path_regression)
 
 # Load emission max model
-model_path_emission = "best_regressor.joblib"
+model_path_emission = "best_regressor_emission.joblib"
 model_emission = joblib.load(model_path_emission)
 
 # Calculate Morgan fingerprints from SMILES string
